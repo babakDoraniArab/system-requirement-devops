@@ -25,3 +25,19 @@ I love it
 ### httpie
 If you're in need of a great CLI tool to use with HTTP servers, RESTful APIs, and web services you're in luck. HTTPie from @jakubroztocil is the perfect solution 🤗 Part of December's #GHReleaseRadar https://httpie.org
 
+### Monitoring tools and managment 
+htop top nmon mc 
+
+### Infrastructure as Code
+terraform
+
+### Confiuration managment
+Ansible or puppet or etc
+
+## Kubernetes tools
+Kubectl
+Helm
+
+## Hashicorp tools
+Vault
+consul
