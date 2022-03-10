@@ -1,8 +1,8 @@
-[all:vars]
+[ubuntu20:vars]
 ansible_user='ubuntu'
 ansible_become=yes
 ansible_become_method=sudo
 ansible_python_interpreter='/usr/bin/env python3'
 
-[all]
-jenkins
+[ubuntu20]
+localhost
