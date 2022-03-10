@@ -3,24 +3,27 @@
 ###########################################################
 #########           functions
 ###########################################################
+banner (){
+  echo "###########################################################"
+  echo "$1 configuraton is started"
+  echo "###########################################################"
+}
+
 ubuntu20_config () {
-  echo "###########################################################"
-  echo "ubuntu config started"
-  echo "###########################################################"
+  banner Ubuntu20
+  exit
+}
 
-
-
+ubuntu18_config () {
+  banner Ubuntu18
   exit
 }
 
 
-
-
-
 redhat8_config () {
-  echo "redhat config started"
-  exit
-  }
+ banner Redhat8
+ exit
+}
 
 
 
@@ -63,12 +66,7 @@ select_os
 
 
 
-# sudo apt-get update -y
 
-
-# #install ansible 
-
-# sudo apt-get install -y ansible 
 
 
 
