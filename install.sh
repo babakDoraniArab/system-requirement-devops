@@ -11,7 +11,9 @@ banner (){
 
 ubuntu20_config () {
   banner Ubuntu20
-  apt-get install -y ansible
+  sudo apt install software-properties-common
+  sudo add-apt-repository --yes --update ppa:ansible/ansible
+  sudo apt-get install -y ansible
   ansible-playbook ubuntu20/ubuntu20.yaml -i ubuntu20/inventory
   exit
 }
