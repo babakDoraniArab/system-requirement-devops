@@ -1,4 +1,4 @@
-- hosts: jenkins
+- hosts: ubuntu20
   become: true
  
   tasks:
