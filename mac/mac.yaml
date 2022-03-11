@@ -1,4 +1,4 @@
-- hosts: jenkins
+- hosts: localhost
   become: true
  
   tasks:
