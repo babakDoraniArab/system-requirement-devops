@@ -11,6 +11,8 @@ banner (){
 
 ubuntu20_config () {
   banner Ubuntu20
+  apt-get install -y ansible
+  ansible-playbook ubuntu20/ubuntu20.yaml -i ubuntu20/inventory
   exit
 }
 
