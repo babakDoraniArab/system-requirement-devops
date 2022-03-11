@@ -19,6 +19,8 @@
     - tree
     - htop 
     - fzf
+    - ripgrep
+    - httpie
 
  - name: Add Docker GPG apt Key
    apt_key:

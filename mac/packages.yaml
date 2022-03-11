@@ -1,0 +1,6 @@
+brew install exa
+brew install --HEAD wvanlint/twf/twf
+brew install bat
+brew install httpie
+brew install ripgrep
+brew install fzf
